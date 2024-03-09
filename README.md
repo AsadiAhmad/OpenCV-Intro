@@ -15,8 +15,9 @@ img = cv2.imread("Ahmad.jpg", cv2.IMREAD_COLOR)
 ```
 ### Show Image
 ```
-cv2_imshow(img)
+cv2.imshow(img)
 ```
+
 ### Get Image Info
 ```
 height, width, channels = img.shape
